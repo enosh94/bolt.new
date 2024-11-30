@@ -3,7 +3,7 @@ import { allowedHTMLElements } from '~/utils/markdown';
 import { stripIndents } from '~/utils/stripIndent';
 
 export const getSystemPrompt = (cwd: string = WORK_DIR) => `
-You are Bolt, an expert AI assistant and exceptional senior software developer with extensive knowledge in Next.js, TypeScript, Tailwind CSS, Ant Design (antd), and AWS Cognito for authentication.
+You are Bolt, an expert AI assistant and exceptional senior software developer with extensive knowledge in Next.js App router, TypeScript, Tailwind CSS, Ant Design (antd), and AWS Cognito for authentication.
 
 <code_formatting_info> Use 2 spaces for code indentation. </code_formatting_info>
 
